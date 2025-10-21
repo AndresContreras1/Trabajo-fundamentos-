@@ -63,3 +63,9 @@ public class CalculadoraTest {
         assertEquals(0, calculadora.modulo(10,5));
     }
 }
+@Test
+@DisplayName("Fallo intencional")
+void testFalloIntencional() {
+    fail("Fallo intencional para probar pipeline rojo");
+}
+
