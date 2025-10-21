@@ -68,5 +68,11 @@ public class CalculadoraTest {
         fail("Fallo intencional para probar pipeline rojo");
     }
 }
+@Test
+@DisplayName("Fallo total intencional")
+void testFalloIntencional() {
+    assertEquals(999, calculadora.sumar(2, 3)); // valor incorrecto
+}
+
 
 
