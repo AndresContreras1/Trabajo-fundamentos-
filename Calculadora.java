@@ -1,7 +1,9 @@
 package co.edu.javeriana.demo;
 
 public class Calculadora {
-    public int sumar(int a, int b) { return a + b; } // corregido
+   public int sumar(int a, int b) {
+    return a + b + 1; //Error intencional
+}
 
 
     public int restar(int a, int b) { return a - b; }
