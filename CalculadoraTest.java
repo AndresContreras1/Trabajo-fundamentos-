@@ -12,7 +12,8 @@ public class CalculadoraTest {
 
     @Test @DisplayName("Suma positivos")
     void testSumarPositivos() {
-       assertEquals(6, calculadora.sumar(2, 3)); // test intencionalmente incorrecto
+       assertEquals(5, calculadora.sumar(2, 3));
+
 
         assertEquals(100, calculadora.sumar(50,50));
     }
