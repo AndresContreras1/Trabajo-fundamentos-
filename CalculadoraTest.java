@@ -12,9 +12,7 @@ public class CalculadoraTest {
 
     @Test @DisplayName("Suma positivos")
     void testSumarPositivos() {
-       assertEquals(5, calculadora.sumar(2, 3));
-
-
+        assertEquals(5, calculadora.sumar(2, 3));
         assertEquals(100, calculadora.sumar(50,50));
     }
 
@@ -62,10 +60,13 @@ public class CalculadoraTest {
         assertEquals(1, calculadora.modulo(5,2));
         assertEquals(0, calculadora.modulo(10,5));
     }
+
+    // 🔴 TEST FALLIDO INTENCIONAL
+    @Test
+    @DisplayName("Fallo intencional para pipeline rojo")
+    void testFalloIntencional() {
+        fail("Fallo intencional para probar pipeline rojo");
+    }
 }
-@Test
-@DisplayName("Fallo intencional")
-void testFalloIntencional() {
-    fail("Fallo intencional para probar pipeline rojo");
-}
+
 
