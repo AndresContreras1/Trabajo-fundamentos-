@@ -1,4 +1,4 @@
-//Restaurant Manager
+-Restaurant Manager
 
 Sistema de gestión para restaurantes desarrollado en equipo.  
 Permite administrar menú, órdenes, reservas y estadísticas de ventas.
@@ -14,15 +14,19 @@ Permite administrar menú, órdenes, reservas y estadísticas de ventas.
 - Soporte Docker para despliegue rápido
 
 
-//Equipo de Desarrollo
+-Equipo de Desarrollo
 
-| Rol | Nombre |
+
+
 | Maintainer | Mateo Morales |
+
 | Developer | Andres Pabon |
+
 | Developer | Sebastian Velasquez |
+
 | Developer | Andres Contreras |
 
-//Requisitos previos
+-Requisitos previos
 
  correr sin Docker:
 - Java 17+
