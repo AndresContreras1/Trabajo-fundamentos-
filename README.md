@@ -34,4 +34,5 @@ Permite administrar menú, órdenes, reservas y estadísticas de ventas.
 
 correr con Docker:
 - Docker Desktop o Docker Engine instalado
+  
 - Docker Compose
