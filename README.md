@@ -36,7 +36,7 @@ correr con Docker:
 - Docker Desktop o Docker Engine instalado
 - Docker Compose
 
--Cómo Ejecutar
+#Cómo Ejecutar
 
 Opción 1 — Ejecutar con Maven (modo desarrollo)
 
