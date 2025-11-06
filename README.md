@@ -1,23 +1,33 @@
-# Calculadora CI DevOps
-![CI](https://github.com/sebasve0810/calculadora-ci-devops/actions/workflows/ci.yml/badge.svg)
+//Restaurant Manager
+
+Sistema de gestión para restaurantes desarrollado en equipo.  
+Permite administrar menú, órdenes, reservas y estadísticas de ventas.
 
 
 
-Proyecto de ejemplo con Maven, JUnit 5 y GitHub Actions.
+//Características Principales
 
-## Cómo usar
+- Gestión de menú (agregar / eliminar ítems)
+- Procesamiento de órdenes
+- Gestión de reservas
+- Cálculo de estadísticas e ingresos
+- Soporte Docker para despliegue rápido
 
-```bash
-mvn clean test
-```
 
-## Estructura
-```
-calculadora-ci-devops/
-├─ src/
-│  ├─ main/java/co/edu/javeriana/demo/Calculadora.java
-│  └─ test/java/co/edu/javeriana/demo/CalculadoraTest.java
-├─ .github/workflows/ci.yml
-├─ pom.xml
-└─ README.md
-```
+//Equipo de Desarrollo
+
+| Rol | Nombre |
+| Maintainer | Mateo Morales |
+| Developer | Andres Pabon |
+| Developer | Sebastian Velasquez |
+| Developer | Andres Contreras |
+
+//Requisitos previos
+
+ correr sin Docker:
+- Java 17+
+- Maven 3+
+
+correr con Docker:
+- Docker Desktop o Docker Engine instalado
+- Docker Compose
