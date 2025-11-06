@@ -18,13 +18,13 @@ Permite administrar menú, órdenes, reservas y estadísticas de ventas.
 
 
 
- Maintainer : Mateo Morales 
+ -Maintainer : Mateo Morales 
 
- Developer : Andres Pabon 
+ -Developer : Andres Pabon 
 
- Developer : Sebastian Velasquez 
+ -Developer : Sebastian Velasquez 
 
- Developer : Andres Contreras 
+ -Developer : Andres Contreras 
 
 #Requisitos previos
 
@@ -34,5 +34,4 @@ Permite administrar menú, órdenes, reservas y estadísticas de ventas.
 
 correr con Docker:
 - Docker Desktop o Docker Engine instalado
-  
-- Docker Compose
+- Docker Compose
