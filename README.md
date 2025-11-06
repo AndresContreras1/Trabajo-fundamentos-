@@ -18,7 +18,7 @@ Permite administrar menú, órdenes, reservas y estadísticas de ventas.
 
 
 
- -Maintainer : Mateo Morales 
+ -Maintainer : Mateo Madrigal 
 
  -Developer : Andres Pabon 
 
