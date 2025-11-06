@@ -35,3 +35,11 @@ Permite administrar menú, órdenes, reservas y estadísticas de ventas.
 correr con Docker:
 - Docker Desktop o Docker Engine instalado
 - Docker Compose
+
+-Cómo Ejecutar
+
+Opción 1 — Ejecutar con Maven (modo desarrollo)
+
+```bash
+mvn clean install
+mvn spring-boot:run
